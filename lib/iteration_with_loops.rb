@@ -11,6 +11,14 @@ def join_nested_strings(src)
     
     while inner_idx < inner_array.length do 
       ele = inner_array[inner_idx]
-      if ele.class == string 
+      if ele.class == string do 
+        array.push(ele)
+      end 
+      inner_idx += 1
+    end 
+    idx += 1
+  end 
+    
+  array.join(" ")
     
 end
