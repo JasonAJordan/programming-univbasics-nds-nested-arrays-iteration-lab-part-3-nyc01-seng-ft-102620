@@ -5,4 +5,12 @@ def join_nested_strings(src)
   idx = 0 
   array = []
   
+  while idx < src.length do 
+    inner_idx = 0 
+    inner_array = src[idx]
+    
+    while inner_idx < inner_array.length do 
+      ele = inner_array[inner_idx]
+      if ele 
+    
 end
